@@ -5,6 +5,8 @@
 	font-variant: small-caps;
 }
 
+#chapter-2-1-6 blockquote > p:first-child,
+#chapter-1-1-9 blockquote b,
 [epub|type~="dedication"] b{
 	font-size: 1.25em;
 }
@@ -40,6 +42,16 @@ footer{
 [epub|type~="z3998:song"] + p,
 [epub|type~="z3998:verse"] + p{
 	text-indent: 0;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+p span.i2{
+	text-indent: -1em;
+	padding-left: 3em;
 }
 
 /* All epigraphs */
@@ -98,4 +110,72 @@ figure img{
 
 figure + p{
 	text-indent: 0;
+}
+
+#chapter-1-1-9 blockquote{
+	text-align: center;
+	font-variant: small-caps;
+}
+
+#chapter-2-1-4 blockquote p{
+	text-align: center;
+	text-indent: 0;
+	font-variant: small-caps;
+}
+
+#chapter-2-1-4 blockquote p:first-child{
+	text-transform: uppercase;
+}
+
+#chapter-2-1-4 blockquote p:last-child{
+	font-variant: normal;
+}
+
+#chapter-2-1-6 blockquote{
+	border: 1px solid;
+	font-variant: small-caps;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 30em;
+	padding: 2em;
+	text-align: center;
+}
+
+#chapter-2-1-6 blockquote footer p{
+	text-align: left;
+}
+
+#chapter-2-1-6 blockquote footer p span{
+	display: block;
+	margin-left: 1em;
+}
+
+#chapter-2-1-6 blockquote footer{
+	display: table;
+	width: 100%;
+}
+
+#chapter-2-1-6 blockquote footer p{
+	display: table-cell;
+	width: 50%;
+}
+
+#chapter-2-1-6 blockquote footer p + p{
+	text-align: right;
+}
+
+@supports(display: flex){
+	#chapter-2-1-6 blockquote footer{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#chapter-2-1-6 blockquote footer p{
+		display: block;
+		width: auto;
+	}
+
+	#chapter-2-1-6 blockquote footer p + p{
+		text-align: left;
+	}
 }
