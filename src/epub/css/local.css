@@ -8,3 +8,8 @@
 [epub|type~="dedication"] b{
 	font-size: 1.25em;
 }
+
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
+}
