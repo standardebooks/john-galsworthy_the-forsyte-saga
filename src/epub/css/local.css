@@ -215,9 +215,9 @@ figure + p{
 
 #chapter-2-3-6 [epub|type~="z3998:salutation"] + p{
 	text-align: center;
-	text-indent: 0;
 }
 
+#chapter-2-3-6 [epub|type~="z3998:letter"] p + p,
 #chapter-2-3-9 [epub|type~="z3998:letter"] p + p{
 	text-indent: 0; /* Remove text indent because in this letter the salutation is not a p element */
 }
