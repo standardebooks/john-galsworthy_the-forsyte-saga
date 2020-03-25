@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="chapter-3-1-4.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>The exclamation mark is part of the book's title.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-3-1-11.xhtml">
 		<ignore>
 			<code>t-017</code>
