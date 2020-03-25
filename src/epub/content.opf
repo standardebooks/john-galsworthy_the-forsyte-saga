@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/john-galsworthy/the-forsyte-saga</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2020-03-25T22:15:30Z</dc:date>
+		<meta property="dcterms:modified">2020-03-25T22:15:30Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -51,15 +51,18 @@
 		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2008103502</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A narrative tracing the ups and downs of a nouveau-riche upper-middle-class English family at the end of the Victorian era.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Between 1906 and 1921, John Galsworthy published three novels chronicling the Forsyte family, a fictional upper-middle class family at the end of the Victorian era: &lt;i&gt;The Man of Property&lt;/i&gt;, &lt;i&gt;In Chancery&lt;/i&gt;, and &lt;i&gt;To Let&lt;/i&gt;. In 1922 Galsworthy wrote two interconnecting short stories to bind the three novels together and published the whole as &lt;i&gt;The Forsyte Saga&lt;/i&gt;.&lt;/p&gt;
+			&lt;p&gt;While the novels focus on the family at large, the action centers around Soames Forsyte⁠—the scion of a nouveau-riche London tea merchant—his wife Irene, and their unhappy marriage. Soames and his large family are portrayed as stereotypes of unhappy gilded-age wealth, their family having entered the industrial revolution poor farmers and emerged as wealthy bourgeoise. Their rise was powered by their capacity to acquire, won at the expense of their capacity for almost anything else.&lt;/p&gt;
+			&lt;p&gt;Thematically, the saga focuses on the mores of the wealthy upper-middle class (still a newish feature in the class landscape of England at the time); duty, honor, and love; and the rapidly growing differences across generations occurring at a time of war and social change. The characers are complex and nuanced, and the situations they find themselves in—both of their own making, and of the making of society around them—provide a rich field for analyzing the close of the Victorian age, the dawn of the Edwardian age, and the societal frameworks that were forged in that frisson.&lt;/p&gt;
+			&lt;p&gt;Galsworthy went on to win the Nobel Prize for Literature in 1932 for &lt;i&gt;The Forsyte Saga&lt;/i&gt;, one of the rare occasions in which the Swedish Academy has awarded a prize for a specific work instead of for a lifetime of work.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4397</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/102648042</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">326396</meta>
+		<meta property="se:reading-ease.flesch">72.46</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Forsyte_Saga</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-galsworthy_the-forsyte-saga</meta>
 		<dc:creator id="author">John Galsworthy</dc:creator>
