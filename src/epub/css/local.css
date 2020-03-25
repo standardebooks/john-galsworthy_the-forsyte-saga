@@ -187,6 +187,8 @@ figure + p{
 
 #chapter-2-1-6 blockquote footer p{
 	text-align: left;
+	display: table-cell;
+	width: 50%;
 }
 
 #chapter-2-1-6 blockquote footer p span{
@@ -197,11 +199,6 @@ figure + p{
 #chapter-2-1-6 blockquote footer{
 	display: table;
 	width: 100%;
-}
-
-#chapter-2-1-6 blockquote footer p{
-	display: table-cell;
-	width: 50%;
 }
 
 #chapter-2-1-6 blockquote footer p + p{
