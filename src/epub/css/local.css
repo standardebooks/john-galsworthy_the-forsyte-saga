@@ -51,11 +51,6 @@ footer [epub|type~="z3998:postscript"]{
 	font-size: 1.25em;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 footer{
 	margin-top: 1em;
 	text-align: right;
