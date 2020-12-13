@@ -179,24 +179,28 @@ figure + p{
 	text-align: center;
 }
 
-#chapter-2-1-6 blockquote footer p{
+#chapter-2-1-6 blockquote div p{
 	text-align: left;
 	display: table-cell;
-	width: 50%;
 }
 
-#chapter-2-1-6 blockquote footer p span{
+
+#chapter-2-1-6 blockquote div p:first-child{
+	width: 100%;
+}
+
+#chapter-2-1-6 blockquote div p span{
 	display: block;
 	margin-left: 1em;
 }
 
-#chapter-2-1-6 blockquote footer{
+#chapter-2-1-6 blockquote div{
 	display: table;
+	margin-top: 1em;
 	width: 100%;
 }
 
-#chapter-2-1-6 blockquote footer p + p{
-	text-align: right;
+#chapter-2-1-6 blockquote div p + p{
 	white-space: nowrap;
 }
 
@@ -218,17 +222,17 @@ figure + p{
 }
 
 @supports(display: flex){
-	#chapter-2-1-6 blockquote footer{
+	#chapter-2-1-6 blockquote div{
 		display: flex;
 		justify-content: space-between;
 	}
 
-	#chapter-2-1-6 blockquote footer p{
+	#chapter-2-1-6 blockquote div p{
 		display: block;
 		width: auto;
 	}
 
-	#chapter-2-1-6 blockquote footer p + p{
+	#chapter-2-1-6 blockquote div p + p{
 		text-align: left;
 	}
 
