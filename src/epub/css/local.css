@@ -218,7 +218,7 @@ figure + p{
 }
 
 #interlude-2 section{
-	margin-top: 4em;
+	margin-top: 20vh;
 }
 
 @supports(display: flex){
