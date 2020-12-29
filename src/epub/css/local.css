@@ -28,7 +28,7 @@ section[epub|type~="dedication"] p{
 }
 
 footer [epub|type~="z3998:postscript"]{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -59,7 +59,7 @@ footer{
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -111,7 +111,7 @@ section[epub|type~="epigraph"] > *{
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
-	text-align: left;
+	text-align: initial;
 }
 
 @supports(display: flex){
@@ -180,7 +180,7 @@ figure + p{
 }
 
 #chapter-2-1-6 blockquote div p{
-	text-align: left;
+	text-align: initial;
 	display: table-cell;
 }
 
@@ -233,7 +233,7 @@ figure + p{
 	}
 
 	#chapter-2-1-6 blockquote div p + p{
-		text-align: left;
+		text-align: initial;
 	}
 
 	#chapter-1-3-6 ul{
