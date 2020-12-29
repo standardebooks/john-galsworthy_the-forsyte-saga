@@ -27,7 +27,8 @@ section[epub|type~="dedication"] p{
 	text-indent: 0;
 }
 
-footer [epub|type~="z3998:postscript"]{
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
 	text-align: initial;
 	text-indent: 0;
 }
