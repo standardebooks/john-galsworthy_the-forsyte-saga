@@ -143,10 +143,6 @@ figure img{
 	max-width: 100%;
 }
 
-figure + p{
-	text-indent: 0;
-}
-
 #chapter-1-1-9 blockquote:first-of-type{
 	font-style: italic;
 }
