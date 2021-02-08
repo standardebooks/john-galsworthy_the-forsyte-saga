@@ -51,6 +51,9 @@
 		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2008103502</meta>
 		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">The BBC’s 100 greatest British novels (2015)</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta property="group-position" refines="#collection-1">91</meta>
 		<dc:description id="description">A narrative tracing the ups and downs of a nouveau-riche upper-middle-class English family at the end of the Victorian era.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Between 1906 and 1921 &lt;a href="https://standardebooks.org/ebooks/john-galsworthy"&gt;John Galsworthy&lt;/a&gt; published three novels chronicling the Forsyte family, a fictional upper-middle class family at the end of the Victorian era: &lt;i&gt;The Man of Property&lt;/i&gt;, &lt;i&gt;In Chancery&lt;/i&gt;, and &lt;i&gt;To Let&lt;/i&gt;. In 1922 Galsworthy wrote two interconnecting short stories to bind the three novels together and published the whole as &lt;i&gt;The Forsyte Saga&lt;/i&gt;.&lt;/p&gt;
