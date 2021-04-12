@@ -133,6 +133,7 @@ section[epub|type~="epigraph"] > *{
 /* End full-page epigraphs */
 
 figure{
+	break-inside: avoid;
 	margin: 1em auto;
 	text-align: center;
 }
