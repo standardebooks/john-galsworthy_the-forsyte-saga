@@ -3,7 +3,7 @@
 
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"],
-p.postal,
+p[epub|type~="z3998:place"],
 [epub|type~="z3998:sender"]{
 	font-variant: small-caps;
 }
