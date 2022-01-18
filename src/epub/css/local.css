@@ -214,7 +214,7 @@ figure img{
 	text-indent: 0; /* Remove text indent because in this letter the salutation is not a p element */
 }
 
-#interlude-2 section{
+#interlude-2-body{
 	margin-top: 20vh;
 }
 
