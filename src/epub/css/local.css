@@ -96,9 +96,9 @@ p span.i2{
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 /* End all epigraphs */
 
@@ -149,14 +149,14 @@ figure img{
 }
 
 #chapter-1-1-9 blockquote:last-of-type{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 }
 
 #chapter-2-1-4 blockquote p{
+	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
-	font-variant: small-caps;
 }
 
 #chapter-2-1-4 blockquote p:first-child{
@@ -178,8 +178,8 @@ figure img{
 }
 
 #chapter-2-1-6 blockquote div p{
-	text-align: initial;
 	display: table-cell;
+	text-align: initial;
 }
 
 #chapter-2-1-6 blockquote div p:first-child{
