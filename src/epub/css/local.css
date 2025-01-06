@@ -218,6 +218,10 @@ figure img{
 	margin-top: 20vh;
 }
 
+.telegram{
+	font-variant: all-small-caps;
+}
+
 @supports(display: flex){
 	#chapter-2-1-6 blockquote div{
 		display: flex;
