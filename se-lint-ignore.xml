@@ -2,11 +2,14 @@
 <se-lint-ignore>
 	<file path="chapter-3-1-4.xhtml">
 		<ignore code="t-017">
+			<line>33</line>
 			<reason>The exclamation mark is part of the book's title.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-3-1-11.xhtml">
 		<ignore code="t-017">
+			<line>14</line>
+			<line>116</line>
 			<reason>The exclamation mark is part of the book's title.</reason>
 		</ignore>
 	</file>
